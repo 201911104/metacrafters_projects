@@ -20,7 +20,7 @@ function mintNFT (desc, color, instru) {
         "instru" : instru
     }
     NFTHolder.push(NFT); 
-    console.log("Minted" + desc);
+    console.log("Minted " + desc);
 }
 
 // create a "loop" that will go through an "array" of NFT's
